@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+</html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="img/clood_logo_B.png" type="image/x-icon" sizes="16x16">
+  <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Changa:800|Exo:900|Faster+One|Fugaz+One|Passion+One:900|Plaster|Roboto:900|Sarpanch:900|Stalinist+One">
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/hm-menu.js"> </script>
+  <script type="text/javascript" src="js/progressbar.js"></script>
+
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'dmb2gom',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'dmb2gom',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>order</title>
+</head>
+
+<body>
+  <section class="wrapper">
+    <header class="c-box__header other">
+      <div class="fix-header">
+        <div class="c-header__logo"><a href="index.html">目fillmo</a></div>
+        <div class="inner clearfix c-header__toggle">
+
+          <div class="c-header__tog">
+            <span class="toggle__bar"></span>
+            <span class="toggle__bar"></span>
+            <span class="toggle__bar"></span>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav__menu">
+            <li class="menu-list menu1 button"><a href="index.html">top</a></li>
+            <li class="menu-list menu2 button"><a href="service.html">service</a></li>
+            <li class="menu-list menu3 button"><a href="order.html">order</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="header-img__hero other">
+          <img src="img/img_hero-header.jpg" alt="トップページのヘッダー画像">
+        </div>
+        <div class="header-title other">
+          <div class="header-title__logo">
+            目fillmo
+          </div>
+          <div class="header-title__caption">
+            movie super resolution
+          </div>
+
+        </div>
+
+    </header>
+    <div class="c-box__order ">
+      <div class="order__title">
+        <h1 class="title-box__text title--white">CONTACT</h1>
+      </div>
+
+      <!--ここにフォームが入ります-->
+      <form action="" method="post" class="order-box">
+        <p class="order-box__text">
+          <label for="name" class="order-box__text">Name*</label></p>
+        <p><input type="text" name="name" class="order-box__input" required></p>
+        <p class="order-box__text">
+          <label for="mail" class="order-box__text">Mail*</label></p>
+
+        <p><input type="text" name="mail" class="order-box__input" required></p>
+        
+<div class="order-box__upload"> <!--ファイルアップロードスペース-->
+  <img src="img/img_plus.svg" alt="">
+  <p>file upload here!</p>
+</div>
+<p class="order-box__file">
+  <label for="fileupload">
+      ファイルを選択
+           <input type="file" name="fileupload" id=""></label>
+         </p>
+
+        <table class="order-box__table">
+          <tr>
+            <td>ファイル名</td>
+            <td>hoge.mp4</td>
+            <td rowspan="2" class="table__btn">
+              <button type="reset" class="cancel">取消</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="start" class="order-box__time">Start</label>
+          <input type="time" name="start" class="time order-box__time--start" value="00:00">
+            </td>
+            <td>
+              <label for="end" class="order-box__time">End</label>
+          <input type="time" name="end" class="time order-box__time--end" value="00:30">
+            </td>
+          </tr>
+        </table>
+
+        <p class="order-box__text">サンプル用コンバート区間（30秒）</p>
+      
+        <p class="order-box__time">※指定が無ければこちらで選んだ部分を変換いたします</p>
+
+        <div class="order-box__submit">
+          <input type="submit" value="送信する" class="btn-submit button ">
+          <input type="reset" value="取り消し" class="btn-reset button "></div>
+      </form>
+
+      <div class="progressbar-box">
+        <p>Now Uploading...</p>
+        <progress value="50" max="100">50%</progress>
+        <button class="cancel">cancel</button>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <p class="disclaimer__text">
+          注意事項<br>
+          １)著作権法違反、および公序良俗に反する素材はお断りしております。 <br>
+          ２)恐れ入りますが、銀行振込手数料および当社への送料はお客様がご負担下さい。<br>
+          ３)元素材の状態が著　しく悪い場合はお断りする場合がございます。<br>
+          ※その場合の返却・返金に関わる費用はお客様にご負担いただきます。 <br>
+          ５)キャンセルは当サービスの性質上、ご入金後であってもデータ変換開始前にのみ受け付けいたします。<br>
+          お客様の都合によるキャンセルの場合と上記の１),２),4)の場合は返却・返金に関わる費用はお客様にご負担いただきます。<br>
+           ただし当社の変換ミスの場合、および元素材にない明らかな画像・音声の乱れに関しては、<br>
+            完成品到着後７日以内なら無料で再度作業いたします。 
+          　
+      </p>
+
+    </div>
+
+    <footer>
+      <div class="c-box__footer">
+        <div class="footer__logo">
+          目fillmo
+        </div>
+        <div class="footer__company">
+          <p class="company__en">clood works Inc .</p>
+          <p class="company__ja">株式会社クルード・ワークス</p>
+          <p class="company__copyright">info@clood.jp<br> clood works Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+</body>
+
+</html>
